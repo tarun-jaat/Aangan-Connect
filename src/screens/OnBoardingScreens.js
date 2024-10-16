@@ -3,14 +3,25 @@ import React, { Component } from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import BackGround from '../components/BackGround'
 
-export default class OnBoardingScreens extends Component {
-  render() {
-    return (
-      <SafeAreaView >
-        <BackGround/>
-      </SafeAreaView>
-    )
-  }
+const OnBoardingScreens = () => {
+  return (
+    <SafeAreaView style={styles.container}>
+    <Text>Hiii</Text>
+    
+
+    <BackGround/>
+  </SafeAreaView>
+  )
 }
 
-const styles = StyleSheet.create({})
+export default OnBoardingScreens
+
+const styles = StyleSheet.create({
+    container: {
+        height: '100%',
+        width: '100%',
+        display: 'flex',
+    
+        elevation:2
+      },
+})

@@ -19,7 +19,7 @@ export default function App() {
       initialRouteName='welcome'
       >
       <Stack.Screen name="welcome" component={Welcome}/>
-      <Stack.Screen name='Onboarding' component={BackGround}/>
+      <Stack.Screen name='Onboarding' component={OnBoardingScreens}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
