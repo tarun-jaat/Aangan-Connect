@@ -4,7 +4,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Welcome from './src/screens/Welcome';
 import OnBoardingScreens from './src/screens/OnBoardingScreens';
-import BackGround from './src/components/BackGround';
 
 const Stack = createNativeStackNavigator()
 
